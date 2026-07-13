@@ -1,0 +1,31 @@
+# Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Airflow
+logs/
+airflow.db
+airflow-webserver.pid
+standalone_admin_password.txt
+simple_auth_manager_passwords.json.generated
+
+# Project specific
+output_files/
+config/airflow.cfg
+config/webserver_config.py
+
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
